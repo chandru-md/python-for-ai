@@ -1,5 +1,3 @@
-print("Hello, World!")
-
-print("Python Programming!")
-
-print("I am Learning AI!!!")
+import requests
+response = requests.get("https://api.github.com")
+print(response.status_code)
